@@ -11,7 +11,8 @@ add_message_files(
     DIRECTORY
         msg
     FILES
-        Controller.msg)
+        Controller.msg
+        ControllerVibration.msg)
 generate_messages(DEPENDENCIES std_msgs geometry_msgs)
 
 catkin_package(CATKIN_DEPENDS message_runtime std_msgs geometry_msgs)
